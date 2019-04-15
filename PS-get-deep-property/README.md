@@ -11,3 +11,31 @@
 - After you complete the exercise, provide any notes on your code below such as how to run your example
 
 ## Candidate Notes:
+
+```
+getDeepProperty(object, path)
+```
+
+### arguments
+* object (Object) The object to perform search against
+* path (string) The path to property. Should be comma separated.
+
+### example
+```
+import getDeepProperty from './getDeepProperty';
+
+const exampleObject = {
+  person: {
+    name: {
+      first: 'FirstName',
+      middleInitial: 'I',
+      lastName: 'LastName'
+    },
+  },
+};
+
+const path = 'person.name.lastName';
+
+getDeepProperty(exampleObject, path);
+
+```

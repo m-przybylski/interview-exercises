@@ -11,3 +11,31 @@
 - After you complete the exercise, provide any notes on your code below such as how to run your example
 
 ## Candidate Notes:
+
+## prerequirements
+
+```
+node version 10+
+yarn or npm
+```
+
+for yarn use:
+```
+yarn 
+yarn start
+```
+
+for npm use:
+```
+npm install
+npm start
+```
+
+open browser and navigate to:
+```
+http://localhost:8080/
+```
+
+tested on 
+* Chrome 73
+* Firefox 62

@@ -1,0 +1,36 @@
+div {
+  box-sizing: border-box;
+}
+
+.graph-layout {
+  height: 400px;
+  background: skyblue;
+  border: 5px solid skyblue;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.graph-layout--loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pilar-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 10px;
+}
+
+.pilar {
+  background: navajowhite;
+  border: 1px solid rosybrown;
+}
+.legend {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
